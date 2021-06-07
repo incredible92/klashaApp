@@ -9,7 +9,7 @@
     },
     {
         Header: 'Date',
-        accessor: 'data'
+        accessor: 'date'
 
     },
     {

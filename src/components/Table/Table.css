@@ -1,54 +1,38 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 1rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-   
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-/* .Table {
-    margin: 1rem;
-    background: white;
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
-    display: grid;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+Table {
+  margin: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
 }
-  
-    .cell {
-      padding: 0.25rem 1rem;
-      display: flex;
-      justify-content: flex-start;
-      border-right: border;
-      border-bottom: border; 
-    }
-    .head-cell {
-      color: #9c9c9c;
-      font-size: small;
-    }
-   */
-    Table {
-      font-family: Arial, Helvetica, sans-serif;
-      border-collapse: collapse;
-      width: 100%;
-    }
-    
-    Table td,  Table th {
-      border: 1px solid #ddd;
-      padding: 8px;
-    }
-    
-    Table tr:nth-child(even){background-color: #f2f2f2;}
-    
-     Table tr:hover {background-color: #ddd;}
-    
-     Table th {
-      padding-top: 12px;
-      padding-bottom: 12px;
-      text-align: center;
-      background-color: gray;
-      color: white;
-    }
+
+Table td,
+Table th {
+  padding: 6px;
+}
+
+Table tr:nth-child(even) {
+  background-color: #f2f2f2;
+  margin-top: 2rem;
+}
+
+Table tr:hover {
+  background-color: #ddd;
+}
+
+Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f0f0f0;
+  color: #2a2a2a;
+}
