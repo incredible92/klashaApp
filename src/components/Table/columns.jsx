@@ -1,4 +1,4 @@
-export const Columns = [
+ const columns = [
     {
         Header: 'Payout ID',
         accessor: 'payout_id'
@@ -17,3 +17,5 @@ export const Columns = [
         accessor: 'amount'
     },
 ]
+
+export default columns

@@ -8,7 +8,7 @@ html, body {
    
 }
 
-.Table {
+/* .Table {
     margin: 1rem;
     background: white;
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
@@ -29,4 +29,26 @@ html, body {
       color: #9c9c9c;
       font-size: small;
     }
-  
+   */
+    Table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    Table td,  Table th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    Table tr:nth-child(even){background-color: #f2f2f2;}
+    
+     Table tr:hover {background-color: #ddd;}
+    
+     Table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      background-color: gray;
+      color: white;
+    }

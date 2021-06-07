@@ -1,21 +1,26 @@
-import React from "react";
+import React, { useMemo } from "react";
 import { useTable } from "react-table";
+import Columns from '../Table/columns';
+import Data from '../Table/data.json'
 
 import "./Table.css";
 
-export default function Table({ columns, data }) {
+export default function Table() {
+  const columns = useMemo(() => Columns, []);
+  const data = useMemo(() => Data, []);
   // Use the useTable Hook to send the columns and data to build the table
+  const tableInstance = useTable({
+    columns,
+    data
+  });
+  
   const {
     getTableProps, 
     getTableBodyProps, 
     headerGroups, 
     rows, 
     prepareRow 
-  } = useTable({
-    columns,
-    data
-  });
-
+  } = tableInstance
 
   return (
     <table {...getTableProps()}>
