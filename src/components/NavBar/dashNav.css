@@ -1,0 +1,127 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+.dashNav {
+    padding: 2rem;
+    margin-top: 3rem;
+   display: flex;
+   justify-content: space-between;
+}
+.wrapp {
+    display: flex;
+}
+.bellBox {
+    margin-right: 1rem;
+    border: .5px solid lightgray;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+.bell {
+width: 3rem;
+height: 3rem;
+}
+.avatarBox {
+    margin-right: 1rem;
+    border: .5px solid rgb(238, 13, 13);
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+.avatar {
+    width: 3rem;
+    height: 2.65rem;
+}
+.tableBalWrap {
+    padding: 2rem;
+    margin-left: 2rem;
+    width: 45vw;
+    height: 20vh;
+    border: 1px solid  #F0F0F0;
+    border-radius: 7px;
+    box-sizing: 0 2px 0 1px;
+  }
+
+  
+  .tableBal {
+      display: flex;
+  }
+  .total {
+      display: flex;
+      margin-right: 5rem;
+      color: #2C665D;
+      text-align: center;
+      align-items: center;
+  }
+
+  .amount {
+      position: relative;
+      width: 5rem;
+      height: 2rem;
+      padding: .5rem;
+      border-radius: 5px;
+      background: #F0F0F0;
+      border: none;
+      outline: none;
+  }
+  .line {
+      position: relative;
+      width: 40vw;
+      color: #2A2A2A;
+      padding-top: 1rem;
+      height: 1rem;
+     border-top: 1px solid  #F0F0F0;
+  }
+  .conversion {
+      padding-top: .5rem;
+      color:  #cdcdcd;
+  }
+
+  .curwrap {
+    position: absolute;
+    left: 17rem;
+    top: 17.8rem;
+    background: white;
+  }
+  .currency {
+     
+      display: flex;
+      flex-direction: column;
+      height: 1.5rem;
+      width: 6rem;
+      border: 1px solid  #F0F0F0;
+      border-radius: 5px;
+      padding: .5rem;
+      font-weight: bold;
+
+  }
+  .funds {
+      position: absolute;
+      width: 25.7vw;
+      height: 27.85vh;
+      left: 26.5rem;
+      top: 12.26rem;
+      border: 1px solid  #F0F0F0;
+      background: #F0F0F0;
+      border-radius: 7px;
+  }
+  .action {
+      padding: 1.5rem;
+   font-weight: 300;
+   color: #2A2A2A;
+      
+  }
+  .figure {
+      border-top: 1px solid #cdcdcd;
+     
+      padding: 1.5rem;
+      color: #2A2A2A;
+      font-size: 36px;
+  }
