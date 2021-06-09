@@ -15,6 +15,7 @@ html, body {
 }
 .wrapp {
     display: flex;
+  
 }
 .bellBox {
     margin-right: 1rem;
