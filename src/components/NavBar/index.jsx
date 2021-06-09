@@ -23,7 +23,7 @@ const dashNav = () => {
         </div>
   
         <div className="avatarBox">
-          <img className="avatar"src="/images/image1.png" alt="avat"  />
+          <img className="avatar"src="/images/image.svg" alt="avat"  />
           </div>
         </div>
       </nav>

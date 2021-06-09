@@ -23,6 +23,20 @@ export default function Table() {
   } = tableInstance
 
   return (
+    <>
+    <div className="payoutWrap">
+      <span className="tableTitle">Payout table</span>
+      <div className="searchWrap">
+        <input type="text" className="searchBox" placeholder="Search something.."/>
+        <img className="icon" src="/images/Search.svg" alt="search" />
+      </div>
+     <div className="calendarWrap">
+      <input type="text" className="calendar" placeholder="March 2020"/>
+      <img className="icon" src="/images/Calendar.svg" alt="calendar" />
+
+      </div>
+      <button className="button">Payout</button>
+    </div>
     <table {...getTableProps()}>
       <thead>
         {headerGroups.map(headerGroup => (
@@ -46,6 +60,8 @@ export default function Table() {
         })}
       </tbody>
     </table>
+    <div className="ButtoN">See more</div>
+    </>
   );
 }
 
